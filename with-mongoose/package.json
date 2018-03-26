@@ -1,0 +1,21 @@
+{
+  "name": "controller-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "hot-controller build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.42",
+    "express": "^4.16.3",
+    "hot-controller": "^1.0.0",
+    "hot-controller-plugin-typescript": "^1.0.1",
+    "mongoose": "^5.0.11"
+  }
+}
